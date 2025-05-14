@@ -1809,7 +1809,7 @@ input:focus, textarea:focus, select:focus, input.search:focus, .input-focus {
 			<div class="c4 gutter-margin-right footer-group">
 				<h4>Images uploaded</h4>
 				<p id="footer-image-counter" style="text-decoration:none;">
-				26304399 </p>
+				26304658 </p>
 			</div>
 		</div>
 	</div>
@@ -1842,7 +1842,7 @@ input:focus, textarea:focus, select:focus, input.search:focus, .input-focus {
 		PF.obj.config.json_api = "https://freeimage.host/json";
 				PF.obj.config.listing.items_per_page = "36";
 		PF.obj.config.listing.device_to_columns = {"phone":"1","phablet":"3","tablet":"4","laptop":"5","desktop":"6","largescreen":"6"};
-		PF.obj.config.auth_token = "6a1f8ccbd5f219875deaca215d408dfe03ff43e5";
+		PF.obj.config.auth_token = "917581bffbc040cdd74356e5549126fae06a033d";
 
 		PF.obj.l10n = [];
 

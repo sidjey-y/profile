@@ -20,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Simple script to set the initial theme */}
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
             try {
