@@ -1240,7 +1240,7 @@ input:focus, textarea:focus, select:focus, input.search:focus, .input-focus {
 	<li class=" current"><a id="tab-about-link" data-tab="tab-about" href="">About</a></li>
 <li class=" "><a id="tab-codes-link" data-tab="tab-codes" href="">Embed codes</a></li>
 </ul>        <div class="header-content-right">
-            <div class="number-figures float-left">2 <span>views</span></div>
+            <div class="number-figures float-left">5 <span>views</span></div>
             <div class="number-figures float-left"><span class="icon icon-heart4"></span> <b data-text="likes-count">0</b></div>        </div>
     </div>
 
@@ -1809,7 +1809,7 @@ input:focus, textarea:focus, select:focus, input.search:focus, .input-focus {
 			<div class="c4 gutter-margin-right footer-group">
 				<h4>Images uploaded</h4>
 				<p id="footer-image-counter" style="text-decoration:none;">
-				26304658 </p>
+				26500612 </p>
 			</div>
 		</div>
 	</div>
@@ -1842,7 +1842,7 @@ input:focus, textarea:focus, select:focus, input.search:focus, .input-focus {
 		PF.obj.config.json_api = "https://freeimage.host/json";
 				PF.obj.config.listing.items_per_page = "36";
 		PF.obj.config.listing.device_to_columns = {"phone":"1","phablet":"3","tablet":"4","laptop":"5","desktop":"6","largescreen":"6"};
-		PF.obj.config.auth_token = "b4e0d1bb8b29edd93417e195c0708620f0aa2d38";
+		PF.obj.config.auth_token = "3eba4622f17fbdfefb09220a9d64fa48aaac4aab";
 
 		PF.obj.l10n = [];
 

@@ -37,8 +37,8 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState("all")
 
   function handleScroll(id: string) {
-    const targetId = id.startsWith('#') ? id : `#${id}`;
-    window.location.href = targetId;
+    const targetId = id.startsWith("#") ? id : `#${id}`
+    window.location.href = targetId
   }
 
   const projects = [
@@ -133,40 +133,22 @@ export default function Home() {
             <span>Carla Joy Haboc</span>
           </div>
           <nav className="hidden md:flex gap-6">
-            <a
-              href="#about"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
               About
             </a>
-            <a
-              href="#skills"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#skills" className="text-sm font-medium hover:text-primary transition-colors">
               Skills
             </a>
-            <a
-              href="#projects"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#projects" className="text-sm font-medium hover:text-primary transition-colors">
               Projects
             </a>
-            <a
-              href="#achievements"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#achievements" className="text-sm font-medium hover:text-primary transition-colors">
               Achievements
             </a>
-            <a
-              href="#gallery"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#gallery" className="text-sm font-medium hover:text-primary transition-colors">
               Gallery
             </a>
-            <a
-              href="#contact"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
+            <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
               Contact
             </a>
           </nav>
@@ -194,7 +176,7 @@ export default function Home() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_700px]">
               <motion.div
                 className="flex flex-col justify-center space-y-4"
                 initial={{ opacity: 0, x: -50 }}
@@ -203,10 +185,11 @@ export default function Home() {
               >
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Hi, I'm <span className="text-primary">Sidjey!</span>
+                    Hi, I'm <span className="text-primary">Carla Joy</span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Computer Science student passionate about AI, machine learning, and data science.
+                    Computer Science student passionate about AI, machine learning, and data science. Chapter Organizer
+                    of Google Developer Groups on Campus UP Manila.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -224,12 +207,12 @@ export default function Home() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
               >
-                <div className="relative aspect-square overflow-hidden rounded-full border-8 border-primary/20 bg-muted md:w-[400px]">
+                <div className="relative aspect-square overflow-hidden rounded-full border-8 border-primary/20 bg-muted md:w-[500px] lg:w-[600px]">
                   <Image
                     src="/images/profile-new.jpeg"
                     alt="Carla Joy Haboc"
-                    width={400}
-                    height={400}
+                    width={600}
+                    height={600}
                     className="object-cover"
                     priority
                     unoptimized
@@ -243,7 +226,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              <a 
+              <a
                 href="#about"
                 className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors group"
               >
@@ -253,7 +236,7 @@ export default function Home() {
           </div>
         </section>
 
-        <AnimatedSection id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+        <AnimatedSection id="about" className="w-full py-12 md:py-24 lg:py-32 bg-accent/30">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -286,7 +269,8 @@ export default function Home() {
                   <h3 className="text-2xl font-bold tracking-tighter">My Background</h3>
                   <p className="text-muted-foreground">
                     As a student at UP Manila, I've been focusing on building a strong foundation in computer science
-                    with a specialization in statistical computing.
+                    with a specialization in statistical computing. I've been recognized for academic excellence as part
+                    of the top 7.5% of the UP chapter of The International Honor Society of Phi Kappa Phi.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.5} className="space-y-2">
@@ -301,7 +285,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold tracking-tighter">Community Involvement</h3>
                   <p className="text-muted-foreground">
                     I'm deeply involved in the tech community as the CEO and Chapter Organizer of Google Developer
-                    Groups on Campus, where I lead a team of 20+ core officers and engage with 250+ members. I'm
+                    Groups on Campus, where I lead a team of 20 core officers and engage with 250+ members. I'm
                     passionate about giving back through mentorship and organizing events.
                   </p>
                 </AnimatedSection>
@@ -451,7 +435,7 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection id="projects" className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+        <AnimatedSection id="projects" className="w-full py-12 md:py-24 lg:py-32 bg-accent/30">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -591,7 +575,7 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+        <AnimatedSection id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-accent/30">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
